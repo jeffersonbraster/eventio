@@ -1,6 +1,6 @@
 import { BlitzPage } from "@blitzjs/next"
-import React from "react"
-import { useStringParam } from "src/utils/utils"
+
+import { useStringParam } from "@/utils/utils"
 
 const BlogPost: BlitzPage = () => {
   const slug = useStringParam("slug")
